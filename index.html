@@ -1,32 +1,29 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-darkreader-mode="dynamic" data-darkreader-scheme="dark" data-darkreader-proxy-injected="true">
     <head>
-        <title>Fenternet</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="/static/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SumApp</title>
+        <link rel="stylesheet" href="static/style.css">
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="header">
+            <h1>SumApp</h1>
+            <nav class="nav">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li>
-                        <button class="dropdown" onclick="toggleDropdown()">Recursos</button>
+                    <li><a href="/contacto/contacto.html">Contacto</a></li>
+                    <li class="dropdown">
+                        <button class="dropbtn">Recursos</button>
                         <div class="dropdown-content">
-                            <a href="/recursos/blog/blog.html">Blog</a>
-                            <a href="/recursos/podcast/podcast.html">Podcast</a>
-                            <a href="/recursos/videos/videos.html">Videos</a>
+                            <a href="/recursos/blog/blog.html">Blogs</a>
+                            <a href="">Videos</a>
                             <a href="/recursos/casos de estudio/casos de estudio.html">Casos de estudio</a>
+                            <a href="/recursos/podcast/podcast.html">Podcast</a>
                         </div>
                     </li>
-                    <li><a href="/contacto/contacto.html">Redes sociales</a></li>
                 </ul>
             </nav>
         </header>
-        <section>
-            <h1>Fenternet</h1>
-            <p>Bienvenido al sitio web de Fenternet, donde la fe y la tecnología se unen para expandir la Iglesia Católica a través de internet.</p>  
-        </section>
-        <script src="/static/app.js"></script>
+        <script src="static/app.js"></script>
     </body>
 </html>
