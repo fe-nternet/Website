@@ -1,3 +1,6 @@
+/*Importacion de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
 body{
     font-family: 'Orbitron', sans-serif;
     background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
@@ -85,6 +88,24 @@ body{
     display: block;
 }
 
+.button-tech {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    color: #00eaff;
+    border: 2px solid #00eaff;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-tech:hover {
+    background: #00eaff;
+    color: black;
+    box-shadow: 0px 0px 20px #00eaff;
+}
+
 /* Fonodo de la página */
 
 body::after{
@@ -98,3 +119,4 @@ body::after{
     opacity: 0.05;
     z-index: -1;
 }
+
