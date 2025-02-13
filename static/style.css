@@ -57,3 +57,10 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.title{
+    font-size: 2rem;
+    color: rgb(83, 83, 255);
+    margin: 0;
+    padding: 1rem;
+}
