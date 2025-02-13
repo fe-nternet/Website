@@ -58,7 +58,7 @@
     display: block;
 }
 
-.title{
+.title a{
     font-size: 2rem;
     color: rgb(83, 83, 255);
     margin: 0;
@@ -67,6 +67,6 @@
     transition: color 0.3s ease;
 }
 
-.title:hover {
+.title a:hover {
     color: rgb(124, 255, 117);
 }
