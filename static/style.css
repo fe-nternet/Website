@@ -63,7 +63,7 @@
     color: rgb(83, 83, 255);
     margin: 0;
     padding: 1rem;
-    text-decoration: none;
+    text-decoration:none;
     transition: color 0.3s ease;
 }
 
