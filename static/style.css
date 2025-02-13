@@ -1,6 +1,44 @@
-.header{
+.header {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 1em;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+nav li {
+    position: relative;
+}
+.dropdown {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.show {
+    display: block;
 }
