@@ -63,4 +63,10 @@
     color: rgb(83, 83, 255);
     margin: 0;
     padding: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.title:hover {
+    color: rgb(124, 255, 117);
 }
