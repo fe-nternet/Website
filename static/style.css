@@ -127,3 +127,7 @@ body::after{
     flex-direction: column;
     text-align: center;
 }
+
+.section {
+    margin: 2rem 0;
+}
