@@ -52,6 +52,7 @@ body{
     cursor: pointer;
     font-size: 1rem;
     transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    letter-spacing: 1px;
 }
 
 .nav a:hover, .dropbtn:hover {
@@ -117,6 +118,7 @@ body::after{
     background: url('https://www.transparenttextures.com/patterns/circuit-board.png');
     opacity: 0.08;
     z-index: -1;
+    letter-spacing: 0.5px;
 }
 
 .main {
@@ -130,4 +132,12 @@ body::after{
 
 .section {
     margin: 2rem 0;
+}
+
+h2, h3, h4 {
+    letter-spacing: 1px;
+}
+
+p{
+    letter-spacing: 0.8px;
 }
