@@ -145,12 +145,11 @@ p{
 }
 
 .footer {
+    background-color: rgb(196, 194, 194);
     position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #000000;
-    color: rgb(150, 150, 150);
     padding: 1rem;
     text-align: center;
 }
