@@ -149,8 +149,8 @@ p{
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #ffffff;
-    color: white;
+    background-color: #000000;
+    color: rgb(150, 150, 150);
     padding: 1rem;
     text-align: center;
 }
