@@ -159,6 +159,12 @@ p{
     font-family: 'Orbitron', sans-serif;
 }
 
+.section-text-valores{
+    margin: 1rem 0;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
 .footer {
     background-color: #8e8e8e;
     position: relative;
