@@ -144,6 +144,21 @@ p{
     letter-spacing: 1px;
 }
 
+.section-text{
+    margin: 1rem 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section-text-mision{
+    margin: 1rem 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.section-text-vision{
+    margin: 1rem 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
 .footer {
     background-color: #8e8e8e;
     position: relative;
